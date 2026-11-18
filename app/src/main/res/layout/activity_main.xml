@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="24dp"
     android:gravity="center"
-    android:padding="16dp">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/tvName"
+    <EditText
+        android:id="@+id/etUserName"
+        android:hint="Nom de l'utilisateur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/cbRemember"
+        android:text="Se souvenir de moi"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingBottom="16dp"
-        android:text="MiniShopManager"
-        android:textSize="20sp" />
+        android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/btnNext"
+        android:id="@+id/btnLogin"
+        android:text="Connexion"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Suivant" />
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

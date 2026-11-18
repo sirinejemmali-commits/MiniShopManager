@@ -1,0 +1,6 @@
+[
+  { "nom": "Clavier Mécanique", "prix": "120 DT", "image": "ic_clavier" },
+  { "nom": "Souris Sans Fil", "prix": "45 DT", "image": "ic_souris" },
+  { "nom": "Écran 24 pouces", "prix": "450 DT", "image": "ic_ecran" },
+  { "nom": "Casque Audio", "prix": "85 DT", "image": "ic_casque" }
+]
